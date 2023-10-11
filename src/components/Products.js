@@ -1,32 +1,33 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { add } from "../store/cartSlice";
-import axios from "axios";
+// import axios from "axios";
+import { fetchProducts } from "../store/productSlice";
+import { STATUSES } from "../store/productSlice";
 
 const Products = () => {
-  const [products, setProducts] = useState([]);
+  const { data: products, status } = useSelector((state) => state.product);
   const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   const fetchProducts = async () => {
-  //     const res = await fetch("https://fakestoreapi.com/products");
-  //     const data = await res.json();
-  //     console.log(data);
-  //     setProducts(data);
-  //   };
-  //   fetchProducts();
-  // }, []);
-
   useEffect(() => {
-    axios
-      .get("https://fakestoreapi.com/products")
-      .then((res) => setProducts(res.data));
+    // axios
+    //   .get("https://fakestoreapi.com/products")
+    //   .then((res) => setProducts(res.data));
+    dispatch(fetchProducts());
   }, []);
 
   const handleAdd = (product) => {
+    console.log(product, "ppp");
     dispatch(add(product));
-    // console.log(product);
   };
+
+  if (status === STATUSES.LOADING) {
+    return <h2>Loading...</h2>;
+  }
+
+  if (status === STATUSES.ERROR) {
+    return <h2>Error...</h2>;
+  }
 
   return (
     <div className="productsWrapper">
