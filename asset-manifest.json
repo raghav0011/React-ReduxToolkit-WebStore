@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-ReduxToolkit-WebStore/home/static/css/main.a9374f7c.css",
-    "main.js": "/React-ReduxToolkit-WebStore/home/static/js/main.92bf1b19.js",
-    "static/js/787.9921659f.chunk.js": "/React-ReduxToolkit-WebStore/home/static/js/787.9921659f.chunk.js",
-    "index.html": "/React-ReduxToolkit-WebStore/home/index.html",
-    "main.a9374f7c.css.map": "/React-ReduxToolkit-WebStore/home/static/css/main.a9374f7c.css.map",
-    "main.92bf1b19.js.map": "/React-ReduxToolkit-WebStore/home/static/js/main.92bf1b19.js.map",
-    "787.9921659f.chunk.js.map": "/React-ReduxToolkit-WebStore/home/static/js/787.9921659f.chunk.js.map"
+    "main.css": "/React-ReduxToolkit-WebStore/static/css/main.a9374f7c.css",
+    "main.js": "/React-ReduxToolkit-WebStore/static/js/main.45f89d00.js",
+    "static/js/787.9921659f.chunk.js": "/React-ReduxToolkit-WebStore/static/js/787.9921659f.chunk.js",
+    "index.html": "/React-ReduxToolkit-WebStore/index.html",
+    "main.a9374f7c.css.map": "/React-ReduxToolkit-WebStore/static/css/main.a9374f7c.css.map",
+    "main.45f89d00.js.map": "/React-ReduxToolkit-WebStore/static/js/main.45f89d00.js.map",
+    "787.9921659f.chunk.js.map": "/React-ReduxToolkit-WebStore/static/js/787.9921659f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9374f7c.css",
-    "static/js/main.92bf1b19.js"
+    "static/js/main.45f89d00.js"
   ]
 }
