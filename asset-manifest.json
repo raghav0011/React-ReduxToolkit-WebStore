@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/%3Chttps://raghav0011.github.io/React-ReduxToolkit-WebStore%3E/static/css/main.a9374f7c.css",
-    "main.js": "/%3Chttps://raghav0011.github.io/React-ReduxToolkit-WebStore%3E/static/js/main.1824d8f4.js",
-    "static/js/787.9921659f.chunk.js": "/%3Chttps://raghav0011.github.io/React-ReduxToolkit-WebStore%3E/static/js/787.9921659f.chunk.js",
-    "index.html": "/%3Chttps://raghav0011.github.io/React-ReduxToolkit-WebStore%3E/index.html",
-    "main.a9374f7c.css.map": "/%3Chttps://raghav0011.github.io/React-ReduxToolkit-WebStore%3E/static/css/main.a9374f7c.css.map",
-    "main.1824d8f4.js.map": "/%3Chttps://raghav0011.github.io/React-ReduxToolkit-WebStore%3E/static/js/main.1824d8f4.js.map",
-    "787.9921659f.chunk.js.map": "/%3Chttps://raghav0011.github.io/React-ReduxToolkit-WebStore%3E/static/js/787.9921659f.chunk.js.map"
+    "main.css": "/React-ReduxToolkit-WebStore/static/css/main.a9374f7c.css",
+    "main.js": "/React-ReduxToolkit-WebStore/static/js/main.45f89d00.js",
+    "static/js/787.9921659f.chunk.js": "/React-ReduxToolkit-WebStore/static/js/787.9921659f.chunk.js",
+    "index.html": "/React-ReduxToolkit-WebStore/index.html",
+    "main.a9374f7c.css.map": "/React-ReduxToolkit-WebStore/static/css/main.a9374f7c.css.map",
+    "main.45f89d00.js.map": "/React-ReduxToolkit-WebStore/static/js/main.45f89d00.js.map",
+    "787.9921659f.chunk.js.map": "/React-ReduxToolkit-WebStore/static/js/787.9921659f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9374f7c.css",
-    "static/js/main.1824d8f4.js"
+    "static/js/main.45f89d00.js"
   ]
 }
